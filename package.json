@@ -1,6 +1,6 @@
 {
   "name": "gustavodocanto-website",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Website for Gustavo do Canto, triathlete and Industrial Engineering and Management student",
   "main": "index.js",
   "scripts": {
