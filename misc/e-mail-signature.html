@@ -1,0 +1,249 @@
+<!--
+  Inline the CSS on https://htmlemail.io/inline/
+  which is powered by https://github.com/Automattic/juice
+-->
+
+<style type="text/css">
+  /* CSS Resets */
+
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+  */
+
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-spacing: 0;
+    font-size: 100%;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  }
+
+  /* HTML5 display-role reset for older browsers */
+
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+
+  body {
+    line-height: 100%;
+  }
+
+  ol,
+  ul {
+    list-style: none;
+  }
+
+  blockquote,
+  q {
+    quotes: none;
+  }
+
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: '';
+    content: none;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    vertical-align: middle;
+  }
+
+  /* Typography */
+
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: #1f1f1f;
+    text-decoration: none !important;
+  }
+
+  .signature {
+    margin-top: 32px;
+  }
+
+  .signature__text {
+    border-left-color: #1f1f1f;
+    border-left-style: solid;
+    border-left-width: 3px;
+    color: #1f1f1f;
+    padding-left: 16px;
+  }
+
+  .signature__text--name {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    padding-bottom: 4px;
+  }
+
+  .signature__text--contacts {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .signature__text--socials {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 4px;
+  }
+
+  .signature__links {
+    margin-right: 16px;
+  }
+
+  /* Images */
+
+  .signature__image {
+    background-image: url('https://gustavodocanto.com/cdn/e-mail-signature-asset-v0-0-2.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+  .signature__image--logo {
+    background-position: 0 0;
+    height: 96px;
+    line-height: 96px;
+    margin-right: 16px;
+    width: 96px;
+  }
+
+  .signature__image--instagram {
+    background-position: 0px -96px;
+    height: 24px;
+    line-height: 24px;
+    width: 24px;
+  }
+
+  .signature__image--worldtriathlon {
+    background-position: -24px -96px;
+    line-height: 24px;
+    height: 24px;
+    width: 64px;
+  }
+</style>
+
+<div class="signature">
+  <table>
+    <tbody>
+      <tr>
+        <td rowspan="4"><span class="signature__image signature__image--logo"></span></td>
+        <td class="signature__text signature__text--name">Gustavo do Canto</td>
+      </tr>
+      <tr>
+        <td class="signature__text signature__text--contacts"><a href="tel:+351925107954">+351 925 107 954</a></td>
+      </tr>
+      <tr>
+        <td class="signature__text signature__text--contacts"><a href="mailto:gustavo@docanto.eu">gustavo@docanto.eu</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="signature__text signature__text--socials">
+          <a href="https://instagram.com/docanto.gustavo" target="_blank" class="signature__links">
+            <span class="sign signature__image signature__image--instagram"></span></a>
+          <a href="https://www.triathlon.org/athletes/profile/153723/gustavo_do_canto" target="_blank"
+            class="signatures__links">
+            <span class="sign signature__image signature__image--worldtriathlon"></span></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

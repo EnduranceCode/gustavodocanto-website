@@ -26,7 +26,10 @@ module.exports = {
       filename: 'css/style.css',
     }),
     new CopyPlugin({
-      patterns: [{ from: 'src/img', to: 'img/' }],
+      patterns: [
+        { from: 'src/img', to: 'img/' },
+        { from: 'src/cdn/e-mail-signature-asset-v0-0-2.png', to: 'cdn/' },
+      ],
     }),
   ],
 
